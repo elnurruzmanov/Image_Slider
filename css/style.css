@@ -1,0 +1,74 @@
+/*default styles*/
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+/*slider styles*/
+
+.slider {
+    overflow: hidden;
+}
+
+.slider figure {
+    position: relative;
+    height: 100vh;
+    width: 500%;
+    overflow: hidden;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite linear;
+}
+
+.travel_uzbekistan_img {
+    float: left;
+    width: 20%;
+}
+
+/* animations */
+
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+
+    20% {
+        left: 0;
+    }
+
+    25% {
+        left: -100%;
+    }
+
+    45% {
+        left: -100%;
+    }
+
+    50% {
+        left: -200%;
+    }
+
+    70% {
+        left: -200%;
+    }
+
+    75% {
+        left: -300%;
+    }
+
+    95% {
+        left: -300%;
+    }
+
+    100% {
+        left: -400%;
+    }
+}
